@@ -2,6 +2,8 @@
 
 A responsive, browser-local budgeting MVP for Nigerian students. Uses plain HTML, CSS, JavaScript and Node.js 22. No package installation is required.
 
+The automated money plan is available at `/#smart`: select the ₦100,000 student demo, review allocation rules, and simulate the incoming allowance. It includes essential-priority allocations, subscription renewal simulations, configurable accountability summaries, a simulated BMoney card concept and an inspectable transaction ledger. Guest, demo and the original manual workspace have separate browser records. See [the architecture and complete demo walkthrough](docs/automated-plan.md).
+
 Run `npm start` and open http://127.0.0.1:3000. Run `npm test` for the financial calculation and app flow checks, and `npm run build` to check the application JavaScript. The static files are already in `dist/`; the build command does not generate or overwrite them.
 
 Includes student profile, recorded income, editable category budgets, savings goals and contributions, expense tracking, transaction search/filter, CSV export, and a daily safe-to-spend estimate. Start with your own information; no sample financial records are preloaded.
