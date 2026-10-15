@@ -1,0 +1,1 @@
+{"name":"kasuapay-students","private":true,"version":"0.1.0","scripts":{"start":"node server.cjs","test":"node --test tests/*.test.cjs"}}
