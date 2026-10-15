@@ -1,0 +1,13 @@
+.git/
+.github/
+.openai/
+.codex/
+node_modules/
+.env
+.env.*
+tests/
+README.md
+server.cjs
+*.log
+*.tar.gz
+*.zip

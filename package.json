@@ -1,1 +1,12 @@
-{"name":"kasuapay-students","private":true,"version":"0.1.0","scripts":{"start":"node server.cjs","test":"node --test tests/*.test.cjs"}}
+{
+  "name": "kasuapay-students",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Student allowance planning, budgets, spending tracking and savings goals.",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "start": "node server.cjs",
+    "build": "node --check dist/app.js && node --check dist/finance.js",
+    "test": "node --test tests/*.test.cjs"
+  }
+}

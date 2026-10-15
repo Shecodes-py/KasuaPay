@@ -1,0 +1,19 @@
+# Local tools and hosting identity
+.openai/
+.vercel/
+.codex/
+
+# Dependencies, logs and environment secrets
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+
+# Deployment archives and OS files
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db
+
+# dist/ is the static application source and must stay tracked.
