@@ -17,3 +17,6 @@ node_modules/
 Thumbs.db
 
 # dist/ is the static application source and must stay tracked.
+
+# Local video deliverables and intermediate renders
+demo-video/

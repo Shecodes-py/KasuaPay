@@ -11,3 +11,4 @@ server.cjs
 *.log
 *.tar.gz
 *.zip
+demo-video/

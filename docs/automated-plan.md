@@ -28,7 +28,7 @@ A future real invitation requires authenticated accounts, an expiring single-use
 
 `dist/card-provider.js` exports a simulated provider with `describe(state)` and `purchase(state, input)` operations. Purchases use the same expense ledger and the linked category, preventing a second wallet from inventing funds. The simulator enforces active/frozen status and monthly card limits. It exposes no card numbers, CVVs or credentials.
 
-BMoney is only a potential partner named in the product brief. No verified API documentation or credentials were supplied. The UI is a concept simulation and makes no claim about BMoney's card issuance, wallets, webhooks or public API capabilities.
+BMONI is only a potential partner named in the product brief. No verified API documentation or credentials were supplied. The UI is a concept simulation and makes no claim about BMONI's card issuance, wallets, webhooks or public API capabilities.
 
 Any authorized real provider should be integrated through a backend adapter, with secrets confined to that backend, verified provider callbacks, unique provider references, consent and reconciliation. Card tokens or masked display data should follow the verified provider contract; sensitive payment credentials must not be stored in browser localStorage. Replacing the simulator is not sufficient by itself to enable real payments.
 
@@ -40,7 +40,7 @@ Any authorized real provider should be integrated through a backend adapter, wit
 4. Click **Simulate Incoming Allowance**. Food gets ₦30,000, Transport ₦15,000, Data ₦10,000, Savings ₦20,000, Emergency ₦10,000 and Flexible ₦15,000.
 5. Open the Campus data renewal, indicate that data has finished, and simulate its ₦2,500 renewal. Data falls to ₦7,500. The expense appears in the ledger.
 6. Inspect Accountability, change sharing permissions and preview the permitted summaries.
-7. Open BMoney concept, freeze/unfreeze the demo card, change its category/limit, and simulate a purchase. The linked budget and transaction history update.
+7. Open BMONI concept, freeze/unfreeze the demo card, change its category/limit, and simulate a purchase. The linked budget and transaction history update.
 8. Inspect the allocation ledger, including failed attempts and saved rule snapshots.
 9. Refresh to verify persistence. Use **Reset demo** to start over without affecting guest or manual records.
 
